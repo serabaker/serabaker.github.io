@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  @media screen and (min-width: 500px) {
+    .col1 {
+      display: flex;
+      position: absolute;
+    }
+  }
+}
+
+.col1 {
+  border: 1px solid black;
+  border-radius: 35px;
+  float: left;
+  height: 100%;
+  padding: 18px;
+  width: 31%;
+}
+
+.col2 {
+  border: 1px solid black;
+  border-radius: 35px;
+  float: right;
+  height: 50%;
+  width: 69%;
+}
+
+path:hover {
+  fill: rgb(141, 235, 180);
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 8px;
+  text-align: center;
+}
+.h2 {
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 8px;
+  text-align: center;
+}
